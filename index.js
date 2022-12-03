@@ -53,10 +53,7 @@ let male = []
 let female = []
 
 students.filter(student => {
-    if (student.gender === 'male') {
-        male.push(student.name)
-    } else {
-        female.push(student.name)
-    }
+    if (student.gender === 'male') male.push(student.name)
+    else female.push(student.name)
 })
 console.log(male, female);
