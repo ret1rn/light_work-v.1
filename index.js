@@ -56,4 +56,10 @@ students.filter(student => {
     if (student.gender === 'male') male.push(student.name)
     else female.push(student.name)
 })
+
+// for (let item of students) {
+//     if (item.gender === 'male') male.push(item.name)
+//     else female.push(item.name)
+// }
+
 console.log(male, female);
